@@ -66,10 +66,10 @@ epic_tragedy
 
    # After your code, the following line will return the altered hash
    epic_tragedy[:additional_characters] = []
-   :additional_characters << {
+   epic_tragedy[:additional_characters] << {
      :name => "Prince Escalus"
    }
-   :additional_characters << {
+   epic_tragedy[:additional_characters] << {
      :name => "Apothecary"
    }
    epic_tragedy
